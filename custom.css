@@ -19,6 +19,8 @@ limitations under the License.
    --primary: #09F;
    --text: #888;
    --background: #111;
+   --unread-color1: #fff;
+   --yellow: #6d6b60;
    --background-elevated: #222;
 
    /* These should be less important: */
@@ -100,7 +102,7 @@ body:not(.loading) #team_menu:active {
 .p-channel_sidebar__link--invites:not(.p-channel_sidebar__link--dim) .p-channel_sidebar__name,
 .p-channel_sidebar__section_heading_label--clickable:hover,
 .p-channel_sidebar__quickswitcher:hover {
-   color: var(--text-bright) !important;
+   color: var(--unread-color1) !important;
 }
 
 /*broken*/
@@ -238,16 +240,16 @@ li.active[class] span,
 
 /*"more unreads" bottom*/
 .p-channel_sidebar__banner--top {
-   background-color: var(--background);
-   border: 1px solid var(--border-bright);
+   background-color: var(--yellow);
+   border: 1px solid var(--unread-color1);
    border-top: none;
    border-radius: 0 0 15px 15px;
 }
 
 /*"more unreads" bottom */
 .p-channel_sidebar__banner--bottom {
-   background-color: var(--background);
-   border: 1px solid var(--border-bright);
+   background-color: var(--yellow);
+   border: 1px solid var(--unread-color1);
    border-bottom: none;
    border-radius: 15px 15px 0 0;
 }
@@ -263,6 +265,7 @@ li.active[class] span,
 
 /*also add border to unread count for individual channels*/
 .p-channel_sidebar__badge {
+  background-color: var(--yellow);
    border: 1px solid;
 }
 
@@ -914,7 +917,7 @@ ts-thread .view_all_replies_container:hover {
 
 /* unreads */
 .unread_empty_state {
-   color: var(--text);
+   color: var(--unread-color1);
 }
 
 .unread_group_header,
@@ -925,13 +928,13 @@ ts-thread .view_all_replies_container:hover {
    border-color: var(--border-dim);
 }
 .unread_group_header button {
-   color: var(--text-special);
+   color: var(--unread-color1);
 }
 
 
 /* scroller for threads & unreads */
 #threads_msgs_scroller_div:not(.loading):before {
-   background: var(--background);
+   background: var(--unread-color1);
 }
 
 /* putting this on so many elements might cause performance issues but #yolo */
