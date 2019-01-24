@@ -831,7 +831,7 @@ ts-message.active .edited, ts-message.active .reply_bar .last_reply_at, ts-messa
 }
 
 ts-thread .thread_header .thread_channel_name a {
-   color: var(--text-special);
+   color: var(--border-bright);
 }
 
 #convo_tab .thread_participants, ts-thread .thread_participants {
