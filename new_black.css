@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
 body {
-   font-family: 'Roboto', sans-serif !important;
+   font-family: 'Lato', sans-serif !important;
     text-rendering: optimizeLegibility important;
     word-spacing: -1px;
     -webkit-font-smoothing: auto;
@@ -21,10 +21,10 @@ body {
 div.c-virtual_list__scroll_container{
 color:white}
 .supports_custom_scrollbar #msg_input.texty_legacy .ql-editor{
-   font-family: 'Roboto', sans-serif !important;
+   font-family: 'Lato', sans-serif !important;
 }
 .p-threads_footer__input--legacy .p-message_input_field .ql-editor {
-  font-family: 'Roboto', sans-serif !important;
+  font-family: 'Lato', sans-serif !important;
 }
 div.c-message.c-message--light.c-message--hover {
     color: grey !important;
@@ -423,12 +423,12 @@ p-search_filter__date:first-child {
     color: white;
 }
 .c-message--light .c-message__sender .c-message__sender_link {
-    color: #234f76 !important;
+    color: #3b84c4 !important;
     font-weight: 700 !important;
     font-size: 14px !important;
 }
 .light_theme ts-message .message_content .message_sender {
-    color:  #234f76 !important;
+    color:  #3b84c4 !important;
     text-transform: capitalize;
     font-weight: 700 !important;
 }
@@ -893,7 +893,7 @@ color:white !important;
     color: #ffb088 !important;
 }
 .c-message__sender{
-color:#234f76 !important
+color:#3b84c4 !important
 }
     .c-dialog__footer .c-button {
         background-color: #2ead5c;
@@ -903,7 +903,7 @@ color:#234f76 !important
             color: #ffffff !important;
         }
         a.c-message__sender_link{
-            color: #234f76 !important;
+            color: #3b84c4 !important;
         }
         .ql-editor[aria-label]{
             color: white !important;
