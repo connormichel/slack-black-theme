@@ -3,7 +3,7 @@
 body {
    font-family: 'Lato', sans-serif !important;
     text-rendering: optimizeLegibility important;
-    word-spacing: -1px;
+    word-spacing: normal;
     -webkit-font-smoothing: auto;
 }
 .c-date_picker_calendar .c-calendar_view_header__title {
